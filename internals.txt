@@ -1,0 +1,16 @@
+Git internals are very interesting.
+
+Command	                            Purpose
+git rev-parse --git-dir	            Show the Git directory
+git rev-parse --show-toplevel	    Show the repository root
+git rev-parse HEAD	S               how the current commit ID
+git cat-file -p HEAD	            Inspect the current commit object
+git cat-file -t <OBJECT_ID>	        Display an object's type
+git cat-file -p <OBJECT_ID>	        Display an object's contents
+git hash-object <FILE>	            Calculate a blob object ID
+git hash-object -w <FILE>	        Calculate and write a blob object
+git ls-files --stage	            Inspect staged index entries
+git show-ref	                    List references
+git reflog	                        Inspect recent local reference movements
+git count-objects -vH	            Inspect Git object-storage statistics
+git log --oneline --graph --decorate --all	Visualize commit history
