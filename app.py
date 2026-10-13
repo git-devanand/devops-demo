@@ -13,3 +13,4 @@ def health_check():
 
 if __name__ == "__main__":
     print(health_check())
+    print("Version 1.0")
